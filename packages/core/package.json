@@ -1,0 +1,52 @@
+{
+  "name": "@poppod/three-scene-runtime",
+  "version": "0.1.0",
+  "description": "TypeScript runtime for loading and rendering scenes exported by the Unity Three.js Scene Exporter (scene.json + GLB) with Three.js",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "three.js",
+    "unity",
+    "gltf",
+    "glb",
+    "scene",
+    "3d",
+    "webgl",
+    "typescript"
+  ],
+  "author": "poppod",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poppod56/unity-three-scene-runtime.git"
+  },
+  "peerDependencies": {
+    "three": ">=0.150.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.169.0",
+    "three": "^0.169.0",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.0",
+    "vite-plugin-dts": "^4.0.0"
+  }
+}

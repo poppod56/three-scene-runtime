@@ -1,0 +1,23 @@
+{
+  "name": "@poppod/three-scene-runtime-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Monorepo for three-scene-runtime (Three.js side of the Unity Three.js Scene Exporter pipeline) and its example app",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm --filter example-vite dev",
+    "build:core": "pnpm --filter @poppod/three-scene-runtime build",
+    "build:example": "pnpm --filter example-vite build"
+  },
+  "keywords": [
+    "three.js",
+    "unity",
+    "gltf",
+    "scene"
+  ],
+  "author": "poppod",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}

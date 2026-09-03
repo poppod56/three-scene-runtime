@@ -1,0 +1,205 @@
+{
+  "format": "unity-three-scene",
+  "version": "0.1.0",
+  "scene": {},
+  "assets": {
+    "cube": {
+      "type": "model",
+      "path": "assets/cube.glb"
+    },
+    "sm-airduct-group-2": {
+      "type": "model",
+      "path": "assets/sm-airduct-group-2.glb"
+    },
+    "sm-base-station-2": {
+      "type": "model",
+      "path": "assets/sm-base-station-2.glb"
+    }
+  },
+  "objects": [
+    {
+      "id": "f01a9f2c-edd1-43f2-9713-8d9fb6337bc8",
+      "name": "Main Camera",
+      "asset": null,
+      "parent": null,
+      "transform": {
+        "position": [
+          0.0,
+          1.0,
+          10.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "components": []
+    },
+    {
+      "id": "d91cd7c8-b8a9-4516-9e4c-9146fb8f696f",
+      "name": "Directional Light",
+      "asset": null,
+      "parent": null,
+      "transform": {
+        "position": [
+          0.0,
+          3.0,
+          0.0
+        ],
+        "rotation": [
+          -0.408217877,
+          0.234569684,
+          0.109381631,
+          0.8754261
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "components": []
+    },
+    {
+      "id": "3a4eadd7-7159-408e-98b8-a6d8b333c02a",
+      "name": "Cube",
+      "asset": "cube",
+      "parent": null,
+      "transform": {
+        "position": [
+          0.5,
+          0.35,
+          -0.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "components": []
+    },
+    {
+      "id": "e395a6c6-9b0a-414a-b2af-4596d623300f",
+      "name": "SM_AirDuct_Group_2",
+      "asset": "sm-airduct-group-2",
+      "parent": null,
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "components": []
+    },
+    {
+      "id": "489eb31b-a948-44ed-8076-e6987cf44f7f",
+      "name": "SM_Base_Station_2",
+      "asset": "sm-base-station-2",
+      "parent": null,
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "components": []
+    }
+  ],
+  "cameras": [
+    {
+      "id": "f01a9f2c-edd1-43f2-9713-8d9fb6337bc8",
+      "name": "Main Camera",
+      "transform": {
+        "position": [
+          0.0,
+          1.0,
+          10.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "fov": 60.0,
+      "near": 0.3,
+      "far": 1000.0
+    }
+  ],
+  "lights": [
+    {
+      "id": "d91cd7c8-b8a9-4516-9e4c-9146fb8f696f",
+      "name": "Directional Light",
+      "lightType": "directional",
+      "transform": {
+        "position": [
+          0.0,
+          3.0,
+          0.0
+        ],
+        "rotation": [
+          -0.408217877,
+          0.234569684,
+          0.109381631,
+          0.8754261
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 2.0,
+      "range": null
+    }
+  ]
+}
