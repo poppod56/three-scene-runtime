@@ -1,6 +1,6 @@
 {
   "name": "@poppod/three-scene-runtime",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TypeScript runtime for loading and rendering scenes exported by the Unity Three.js Scene Exporter (scene.json + GLB) with Three.js",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -37,7 +37,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/poppod56/unity-three-scene-runtime.git"
+    "url": "git+https://github.com/poppod56/three-scene-runtime.git"
   },
   "peerDependencies": {
     "three": ">=0.150.0"

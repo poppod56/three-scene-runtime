@@ -1,10 +1,10 @@
 # @poppod/three-scene-runtime
 
 TypeScript runtime that loads a `scene.json` (+ GLB assets) exported by the
-[Unity Three.js Scene Exporter](https://github.com/poppod56/unity-three-scene-runtime)
-Unity Editor package and builds a live Three.js scene from it — hierarchy,
-transforms, cameras, lights, and an opt-in component system for custom
-per-object behavior.
+Unity Three.js Scene Exporter Unity Editor package
+(`com.poppodstudio.three-exporter`, not yet published as its own repo) and
+builds a live Three.js scene from it — hierarchy, transforms, cameras,
+lights, and an opt-in component system for custom per-object behavior.
 
 Unity is the authoring tool here, not the runtime: it only ever exports
 configuration data. Everything about how an object *behaves* in the browser

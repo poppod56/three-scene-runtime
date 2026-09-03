@@ -1,4 +1,4 @@
-# unity-three-scene-runtime (monorepo)
+# three-scene-runtime (monorepo)
 
 pnpm workspace for the Three.js side of the Unity → Three.js scene export
 pipeline (see the `UnityToThreeJS` Unity project for the exporter side).
